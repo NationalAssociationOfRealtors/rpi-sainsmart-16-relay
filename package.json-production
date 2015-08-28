@@ -1,0 +1,9 @@
+{
+  "name": "railroad2",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "ws": "~0.8.0",
+    "wiring-pi": "~2.1.0"
+  }
+}

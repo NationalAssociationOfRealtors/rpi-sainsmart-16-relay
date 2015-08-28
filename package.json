@@ -1,0 +1,25 @@
+{
+  "name": "relay-16",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "ws": "~0.8.0",
+    "wiring-pi": "~2.1.0"
+  },
+  "contributors": [
+    {
+      "name": "Mark Lessswing"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10.28"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://blogs.crt.realtor.org"
+    }
+  ],
+  "readmeFilename": "README.md"
+
+}

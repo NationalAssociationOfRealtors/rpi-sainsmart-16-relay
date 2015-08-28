@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en'>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>SainSmart 12V 16 Relay Board</title><link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/bootstrap.min.css">
+<link rel="stylesheet" href="/bootstrap-theme.min.css">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="container text-center">
+  <div class="container title-spread">
+    <span id="board_name"></span>
+  </div>
+  <div class="container area-spread">
+    <div class="container">
+      <button id="R1" onclick="toggle(0)"/>
+      <button id="R16" onclick="toggle(15)"/>
+    </div>
+    <div class="container">
+      <button id="R2" onclick="toggle(1)"/>
+      <button id="R15" onclick="toggle(14)"/>
+    </div>
+    <div class="container">
+      <button id="R3" onclick="toggle(2)"/>
+      <button id="R14" onclick="toggle(13)"/>
+    </div>
+    <div class="container">
+      <button id="R4" onclick="toggle(3)"/>
+      <button id="R13" onclick="toggle(12)"/>
+    </div>
+    <div class="container">
+      <button id="R5" onclick="toggle(4)"/>
+      <button id="R12" onclick="toggle(11)"/>
+    </div>
+    <div class="container">
+      <button id="R6" onclick="toggle(5)"/>
+      <button id="R11" onclick="toggle(10)"/>
+    </div>
+    <div class="container">
+      <button id="R7" onclick="toggle(6)"/>
+      <button id="R10" onclick="toggle(9)"/>
+    </div>
+    <div class="container">
+      <button id="R8" onclick="toggle(7)"/>
+      <button id="R9" onclick="toggle(8)"/>
+    </div>
+  </div>
+  <div class="container area-spread">
+    <div class="container">
+      <button class="spread btn btn-info" onclick="resetPins()">Reset</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+<script src="/jquery.min.js"></script>
+<script src="/bootstrap.min.js"></script>
+<script type="text/javascript" src="/branding.js"></script>
+<script type="text/javascript" src="/connection.js"></script>

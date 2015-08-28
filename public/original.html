@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en'>
+<head>
+<title>SainSmart 12V 16 Relay Board</title><link rel="stylesheet" href="/original.css">
+</head>
+<body>
+<span id="board_name"></span>
+<div>
+<p class="area_name">Relays</p>
+<table>
+<tr>
+<td><button id="R1" onclick="toggle(0)"/></td>
+<td><button id="R16" onclick="toggle(15)"/></td>
+</tr>
+<tr>
+<td><button id="R2" onclick="toggle(1)"/></td>
+<td><button id="R15" onclick="toggle(14)"/></td>
+</tr>
+<td><button id="R3" onclick="toggle(2)"/></td>
+<td><button id="R14" onclick="toggle(13)"/></td>
+</tr>
+<tr>
+<td><button id="R4" onclick="toggle(3)"/></td>
+<td><button id="R13" onclick="toggle(12)"/></td>
+</tr>
+<tr>
+<td><button id="R5" onclick="toggle(4)"/></td>
+<td><button id="R12" onclick="toggle(11)"/></td>
+</tr>
+<td><button id="R6" onclick="toggle(5)"/></td>
+<td><button id="R11" onclick="toggle(10)"/></td>
+</tr>
+<tr>
+<td><button id="R7" onclick="toggle(6)"/></td>
+<td><button id="R10" onclick="toggle(9)"/></td>
+</tr>
+<tr>
+<td><button id="R8" onclick="toggle(7)"/></td>
+<td><button id="R9" onclick="toggle(8)"/></td>
+</tr>
+</table>
+</div>
+<div>
+<p class="area_name">Actions</p>
+<button class="resetRelays" onclick="resetPins()"><span class="button_label">Reset</span></button>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="/branding.js">
+</script>
+<script type="text/javascript" src="/original.js">
+</script>

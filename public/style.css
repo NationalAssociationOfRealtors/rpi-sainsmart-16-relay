@@ -1,0 +1,22 @@
+body {
+  width:360px;
+}
+button {
+  width: 120px;
+}
+#board_name{
+  font-size: 18px;
+  font-weight: bold;
+}
+.spread{
+  margin-left: 8px;
+  margin-right: 0px;
+  margin-top: 10px;
+}
+.area-spread{
+  margin-top: 20px;
+}
+.title-spread{
+  margin-top: 20px;
+  margin-left: 16px;
+}
